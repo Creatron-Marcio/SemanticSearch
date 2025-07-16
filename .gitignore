@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+app.log
+*.log.*
+faiss_indexer.log
+generate_summaries.log
+
+# Local data
+Preprocessing/Books/*
+!Preprocessing/Books/.gitkeep
+Preprocessing/new_books_output/
+batch_results/
+Preprocessing/batch_results/
+
+# Models - consider using Git LFS for these
+# Preprocessing/all-MiniLM-L6-v2/
+Preprocessing/bart-large-cnn/
+
+# Generated files
+*.index
+books_meta.json
+books.json
+*.bak
+*.tmp
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.~*
+*~
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
